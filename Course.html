@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANGELO MATRICULATION HIGHER SECONDARY School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Alpha.html"><img src="images/logo.png"></a>
+            <div class="nav-links navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul> 
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li> 
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+            <h1>OUR COURSES</h1>
+    </section>
+    <!-------Course------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Our School produces many courses.Which are useful for the future.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Kinder Garden</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consectetur debitis doloribus voluptas ipsa distinctio nesciunt, repellendus officia laudantium placeat perferendis officiis iure est quam consequuntur ipsum. Ad ea tempora harum corrupti accusantium sapiente obcaecati dolores culpa aliquam veritatis praesentium dicta doloribus quasi consequatur, tempore, sed dignissimos veniam voluptates dolorem.</p>
+            </div>
+            <div class="course-col">
+                <h3>SSLC</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consectetur debitis doloribus voluptas ipsa distinctio nesciunt, repellendus officia laudantium placeat perferendis officiis iure est quam consequuntur ipsum. Ad ea tempora harum corrupti accusantium sapiente obcaecati dolores culpa aliquam veritatis praesentium dicta doloribus quasi consequatur, tempore, sed dignissimos veniam voluptates dolorem.</p>
+            </div>
+            <div class="course-col">
+                <h3>HSC</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consectetur debitis doloribus voluptas ipsa distinctio nesciunt, repellendus officia laudantium placeat perferendis officiis iure est quam consequuntur ipsum. Ad ea tempora harum corrupti accusantium sapiente obcaecati dolores culpa aliquam veritatis praesentium dicta doloribus quasi consequatur, tempore, sed dignissimos veniam voluptates dolorem.</p>
+            </div>
+        </div>
+    </section>
+    <!-------Facilities------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Our School Campus is so beautiful with lot of nature.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Canteen</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consectetur debitis doloribus voluptas ipsa distinctio nesciunt, repellendus officia laudantium placeat perferendis officiis iure est quam consequuntur ipsum. Ad ea tempora harum corrupti accusantium sapiente obcaecati dolores culpa aliquam veritatis praesentium dicta doloribus quasi consequatur, tempore, sed dignissimos veniam voluptates dolorem.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consectetur debitis doloribus voluptas ipsa distinctio nesciunt, repellendus officia laudantium placeat perferendis officiis iure est quam consequuntur ipsum. Ad ea tempora harum corrupti accusantium sapiente obcaecati dolores culpa aliquam veritatis praesentium dicta doloribus quasi consequatur, tempore, sed dignissimos veniam voluptates dolorem.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consectetur debitis doloribus voluptas ipsa distinctio nesciunt, repellendus officia laudantium placeat perferendis officiis iure est quam consequuntur ipsum. Ad ea tempora harum corrupti accusantium sapiente obcaecati dolores culpa aliquam veritatis praesentium dicta doloribus quasi consequatur, tempore, sed dignissimos veniam voluptates dolorem.</p>
+            </div>
+        </div>
+    </section>
+
+<!----Footer----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quisquam et unde quis in quae, omnis ut consectetur<br>nam quam odio, hic commodi. Minima quidem quos ducimus. Expedita, repellendus tempore.</p>
+    <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-instagram"></i>
+    </div>
+    <p>Made with <i class="bi bi-heart-fill" style="color: red;"></i> by <a href="https://www.instagram.com/praveen_rockzdx/?hl=en" target="_blank" style="color: #f44336; text-decoration: none;">Praveen C</a></p>
+</section>
+<!------JavaScript for toogle Menu Bar------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html> 
